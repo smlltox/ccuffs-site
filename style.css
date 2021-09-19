@@ -1,0 +1,103 @@
+body{
+  background-image: url(img/tanji.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  border: 0;
+}
+
+.menu{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #80218dc4;
+}
+  
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(243, 186, 243);
+}
+
+.home{
+  background-color: rgba(0, 0, 0, 0.952);
+}
+
+.logo{
+  position: fixed;
+  width: 60px;
+}
+
+.eu{
+  height: 400px;
+  padding: 50px;
+  padding-left: 0;
+}
+
+.line{
+  height: 400px;
+  padding: 50px;
+}
+
+.title{
+  font-size: 40px;
+  position: absolute;
+  padding-top: 60px;
+}
+
+text{
+  color:blanchedalmond;
+  position: absolute;
+  padding: 30px;
+  padding-top: 150px;
+  font-size: 20px;
+  padding-right: 200px;
+  text-align: justify;
+}
+
+.about{
+  background-color: rgba(0, 0, 0, 0.952);
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+
+.icons{
+  margin-top: -450px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+ .icons img{
+  width: 50px;
+  padding: 25px;
+  padding-bottom: 20px;
+  padding-top: 150px;
+  display: inline;
+ }
+
+ .icon{
+  margin-top: -363px;
+  padding-left: 75px;
+ }
+
+ .icon img{
+   width: 40px;
+ }
+
